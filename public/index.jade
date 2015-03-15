@@ -1,0 +1,35 @@
+.grid-fluid.l-space-bottom-8
+  .c7
+    h3.text-headline  Safety install npm packages
+    p.text-body Npm is not very safety. It contains lots of packages created by anyone all over the world. If someone put some dangerous thing in package.json postinstall script. It will harm your computer when you run npm install.
+  .c5.text-center
+    img(src="/resources/images/logos/html5/html5.png" alt="Safe your npm install")
+
+
+.grid-fluid.l-space-bottom-8
+  .c6
+    h3.text-headline  Start Quick, Keep same experience as npm
+    p.text-body Just use npm i npmsafe -g to install npmsafe. And then you can use npmsafe instead of npm totally.
+  .c6
+    pre.prettyprint.linenums.is-showcase
+      code.
+        mkdir test
+        cd test
+        npmsafe init
+        npmsafe install express
+        npmsafe check
+
+.grid-fluid.l-space-bottom-8
+  .c7
+    h3.text-headline Powered by the Open Source Community
+    p.text-body Npmsafe is built by you, for you. We do our work <a href="https://github.com/ueqt/npmsafe">in the open</a> so that you can either help Npmsafe improve or extend and modify what we've built.
+  .c5.text-center
+    img(src="/resources/images/logos/license/open-source.png" alt="Open Source Initiative")
+
+
+
+.grid-fluid.text-center
+  .c12
+    h3.text-headline Loved by Millions of Developers
+    p.text-body Join millions of developers who use Npmsafe. Ramp up in minutes, and use it from now.
+    != partial("/_includes/_cta-bar")

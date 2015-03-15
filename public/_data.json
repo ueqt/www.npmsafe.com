@@ -1,0 +1,17 @@
+{
+  "index": {
+    "hero": "home",
+    "title": "npmsafe can install npm package safety."
+  },
+
+  "features": {
+    "title": "Features & Benefits",
+    "subtitle": "Background and how to use Npmsafe"
+  },
+
+  "contribute": {
+    "title": "Contribute to Npmsafe",
+    "subtitle": "Help us build npmsafe of the future!",
+    "autoformat": "true"
+  }
+}

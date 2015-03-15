@@ -1,0 +1,34 @@
+.grid-fluid.l-space-bottom-8
+  .c2 &nbsp;
+
+  .c8.text-center
+    h3.text-headline.text-uppercase  Building For the Future
+    p.text-body.
+      Npmsafe will do much things to help you use npm safety.
+
+  .c2 &nbsp;
+  .clear
+
+.grid-fluid.l-space-bottom-6
+
+  h3.text-headline.text-uppercase.text-center Current Contributors
+
+  <!-- BIO CARDS -->
+  for person, name in bios
+    .c3
+      md-card(class="bio-card" data-website="#{person.website}" data-twitter="#{person.twitter}" data-pic="#{person.picture}" data-bio="#{person.bio}"  data-name="#{person.name}" ng-click="showBio($event)")
+        header
+          image(src="#{person.picture}" alt="#person.name")
+
+          nav
+            button(aria-label="View Bio") View Bio
+
+            if person.twitter
+              a(title="twitter" href="https://twitter.com/#{person.twitter}" ng-click="$event.stopPropagation()") <span class="icon-twitter"></span>
+
+            if person.website
+              a(title="website" href="#{person.website}"  ng-click="$event.stopPropagation()") <span class="icon-publ"></span>
+
+        md-card-content
+          h3.text-headline.bio-card-name #{person.name}
+          p(class="bio-card-content text-body") #{person.bio}

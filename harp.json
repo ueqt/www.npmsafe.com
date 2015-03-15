@@ -1,0 +1,21 @@
+{
+  "globals": {
+    "title": "npmsafe",
+    "description": "npmsafe is a security tool to help npm more safety",
+    "keywords": "npm safe",
+    "siteURL": "http://www.npmsafe.com",
+    "jsLatest": "2.0.0-alpha.12",
+    "dartLatest": "2.0.0-alpha.6",
+
+    "bios": {
+        "ueqt": {
+            "name": "Jiase Xu",
+            "picture": "/resources/images/bios/ueqt.jpg",
+            "twitter": "ueqt",
+            "website": "http://www.ueqt.com",
+            "bio": "ueqt is everything you know."
+        }
+      
+    }
+  }
+}

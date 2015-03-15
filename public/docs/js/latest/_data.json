@@ -1,0 +1,29 @@
+{
+  "index": {
+    "icon": "home",
+    "title": "Npmsafe Docs",
+    "menuTitle": "Docs Home",
+    "banner": "Npmsafe currently still under construction, but can replace npm now."
+  },
+
+  "quickstart": {
+    "icon": "query-builder",
+    "title": "5 Min Quickstart"
+  },
+
+  "resources": {
+    "icon": "play-circle-fill",
+    "title": "Npmsafe Resources",
+    "banner": "Npmsafe resources."
+  },
+
+  "api": {
+    "icon": "book",
+    "title": "API Proposal"
+  },
+
+  "help": {
+    "icon": "chat",
+    "title": "Help & Support"
+  }
+}

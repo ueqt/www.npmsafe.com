@@ -1,0 +1,19 @@
+{
+  "index": {
+    "title": "Npmsafe Docs",
+    "subtitle": "Choose a language for Angular",
+    "layout": "../_layout"
+  },
+
+  "search": {
+    "title": "Docs Search Results",
+    "layout": "../_layout"
+  },
+
+  "styleguide": {
+    "title": "Docs Style Guide",
+    "subtitle": "Design & Layout Patterns For Documentation",
+    "layout": "../_layout",
+    "autoformat": "true"
+  }
+}
