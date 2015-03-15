@@ -19,6 +19,13 @@ www.npmsafe.com is the main site for npmsafe.
 - Prettify: A JS module and CSS for syntax highlighting of source code snippets.
 - Icomoon: Custom built icon fonts
 
+## Github.io
+```bash
+harp compile
+```
+
+Copy www output to github.io repository
+
 ## Production
 ```bash
 NODE_ENV=production sudo harp server --port 80
