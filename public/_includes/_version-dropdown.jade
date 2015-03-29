@@ -1,5 +1,5 @@
 language = current.path[1]
-title = "JavaScript "
+title = "Npmsafe "
 filter = /(\.html$)/
 replace = /(\.html$)|(^index\.html$)/
 version = ''
@@ -24,8 +24,17 @@ mixin tree(directory, urlPrefix, name, latest)
 
 
 <!-- BUTTON TITLE GENERATION  -->
-if language == 'js'
-    title = 'Npmsafe'
-
-
-
+if language == 'zh'
+    title = '简体中文'
+    
+if language == 'en'
+    title = 'English'
+    
+<!-- DROPDOWN BUTTON -->
+nav.hero-subtitle.text-subhead.dropdown
+    button(aria-label="Select a language" md-button class="dropdown-button" ng-click="toggleVersionMenu($event)") #{title}  <span class="icon icon-arrow-drop-down"></span>
+    div(class="overlay ng-hide" ng-click="toggleVersionMenu($event)" ng-show="showMenu")
+    <!-- DROPDOWN MENU -->
+    div(class="dropdown-menu" ng-class="showMenu ? 'is-visible' : ''")
+        mixin tree(public.docs.zh, "/docs/zh", "简体中文")
+        mixin tree(public.docs.en, "/docs/en", "English")
