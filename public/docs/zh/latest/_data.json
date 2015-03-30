@@ -6,10 +6,10 @@
     "banner": "Npmsafe currently still under construction, but can replace npm now."
   },
 
-    "origin": {
-        "icon": "query-builder",
-        "title": "缘起"
-    },
+  "origin": {
+    "icon": "query-builder",
+    "title": "缘起"
+  },
 
   "quickstart": {
     "icon": "query-builder",

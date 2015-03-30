@@ -26,6 +26,15 @@ harp compile
 
 Copy www output to github.io repository
 
+## Release
+```zsh
+sh deploy.sh
+cd ../npmsafe.github.io
+git add .
+git commit -m "xxx"
+git push
+```
+
 ## Production
 ```bash
 NODE_ENV=production sudo harp server --port 80

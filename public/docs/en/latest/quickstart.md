@@ -1,3 +1,3 @@
 # Quickstart
 
-[](/docs/en/latest/origi哦日光n.html)
+[Origin](/docs/en/latest/origin.html)
