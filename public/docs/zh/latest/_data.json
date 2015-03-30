@@ -1,29 +1,34 @@
 {
   "index": {
     "icon": "home",
-    "title": "Npmsafe Docs",
+    "title": "Npmsafe 文档",
     "menuTitle": "Docs Home",
     "banner": "Npmsafe currently still under construction, but can replace npm now."
   },
 
+    "origin": {
+        "icon": "query-builder",
+        "title": "缘起"
+    },
+
   "quickstart": {
     "icon": "query-builder",
-    "title": "5 Min Quickstart"
+    "title": "5分钟快速入门"
   },
 
   "resources": {
     "icon": "play-circle-fill",
-    "title": "Npmsafe Resources",
+    "title": "Npmsafe 资源",
     "banner": "Npmsafe resources."
   },
 
   "api": {
     "icon": "book",
-    "title": "API Proposal"
+    "title": "API 概要"
   },
 
   "help": {
     "icon": "chat",
-    "title": "Help & Support"
+    "title": "帮助和支持"
   }
 }
